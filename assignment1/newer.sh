@@ -1,6 +1,6 @@
 #/bin/bash
+result=$1
  for i in $*; do
-   result="$1"
    if [ "$i" -nt "$result" ]; then
     result=$i
    fi
