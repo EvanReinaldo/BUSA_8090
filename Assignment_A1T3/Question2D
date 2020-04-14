@@ -1,0 +1,1 @@
+select m.MemberID,m.LastName, m.FirstName from Member m where not exists ( select * from Tournament t where not exists (select * from Entry e where e.MemberID = m.MemberID and e.tourID = t.TourID));
