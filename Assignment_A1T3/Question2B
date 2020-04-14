@@ -1,0 +1,1 @@
+select LastName,FirstName from Member where Joindate between CAST('2010-01-01' AS DATE) AND CAST('2011-01-01' AS DATE);
