@@ -1,0 +1,1 @@
+select distinct m.FirstName,m.MemberID from Member m join Entry e on m.MemberID = e.MemberID where year != 2014 and m.MemberID not in (select MemberID from Entry where year = 2014);
