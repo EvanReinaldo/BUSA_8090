@@ -1,0 +1,1 @@
+select Lastname, Firstname from Member where coach is null;
