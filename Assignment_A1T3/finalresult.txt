@@ -1,0 +1,8 @@
+gene expr_value  metabolism
+alr5000 5732  synthetase Pyrimidine biosynthesis
+alr4851 633  translocase subunit Protein and peptide secretion
+alr4392 729  regulator Nitrogen assimilation
+alr3395 1432  lyase Purine biosynthesis
+alr2938 10323  superoxide dismutase Detoxification
+alr1207 8303  kinase Pyrimidine biosynthesis
+all3556 8043  TCA cycle
